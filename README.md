@@ -1,0 +1,2 @@
+# google-safesearch-enforcer
+Google検索時にSafeSearchフィルターを強制するChrome拡張機能
