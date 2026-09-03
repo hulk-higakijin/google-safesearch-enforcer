@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Google SafeSearch Enforcer",
   "version": "1.0.0",
-  "description": "google.com の検索URLに常に safe=active を付与します。",
+  "description": "Always add safe=active to Google Search URLs.",
   "permissions": ["webNavigation"],
   "host_permissions": [
     "*://google.com/search*",

@@ -1,18 +1,18 @@
 # Google SafeSearch Enforcer
 
-Google検索時に、URLパラメータ `safe=active` を常に追加・強制するChrome系ブラウザ向け拡張機能です。
+A browser extension for Chromium-based browsers that forces the `safe=active` URL parameter on Google Search.
 
-## インストール
+## Installation
 
-1. このリポジトリをダウンロードまたはクローンする
-2. Chromeで `chrome://extensions/` を開く
-3. 「デベロッパー モード」を有効にする
-4. 「パッケージ化されていない拡張機能を読み込む」を押す
-5. このリポジトリのフォルダを選択する
+1. Download or clone this repository.
+2. Open `chrome://extensions/` in Chrome or another Chromium-based browser.
+3. Enable Developer mode.
+4. Click Load unpacked.
+5. Select the repository directory.
 
-以後、`google.com` または `www.google.com` の検索URLを開くたび、`safe` パラメータが `active` に追加または置換されます。
+Whenever a Google Search URL on `google.com` or `www.google.com` is opened, the extension adds or replaces the `safe` parameter with `active`.
 
-## テスト
+## Testing
 
 ```sh
 npm test
